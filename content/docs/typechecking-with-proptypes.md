@@ -196,4 +196,4 @@ class Greeting extends React.Component {
 }
 ```
 
-Les `defaultProps` seront utilisées pour s'assurer que `this.props.name` aura une valeur si elle n'était pas spécifiée par le composant parent. La validation de types des `propTypes` aura lieu après que `defaultProps` est résolu, la validation de types s'applique donc également aux `defaultProps`.
+Les `defaultProps` seront utilisées pour s'assurer que `this.props.name` aura une valeur si elle n'était pas spécifiée par le composant parent. La validation de types des `propTypes` aura lieu après que `defaultProps` soit résolu, la validation de types s'applique donc également aux `defaultProps`.
